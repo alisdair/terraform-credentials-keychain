@@ -2,6 +2,8 @@
 
 `terraform-credentials-keychain` is a shell script which implements the [Terraform credentials helpers API](https://www.terraform.io/docs/internals/credentials-helpers.html), allowing you to store and retrieve credentials for services like Terraform Cloud securely in the macOS Keychain.
 
+**Note:** Consider using [bendrucker/terraform-credentials-helper](https://github.com/bendrucker/terraform-credentials-keychain), which is more likely to be maintained.
+
 ## Usage
 
 1. Download the `terraform-credentials-keychain` file from this repository, and copy it to your global plugins path, `~/.terraform.d/plugins`.
